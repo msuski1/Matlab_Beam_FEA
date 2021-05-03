@@ -54,6 +54,8 @@ i=1;
 a=[x(ni(i)) x(nj(i))];
 b=[y(ni(i)) y(nj(i))];
 plot(a,b,'k+-');
+xlim([-5,50]);
+ylim([-5, 20]);
 
 hold;
 for i=2:ecount;
